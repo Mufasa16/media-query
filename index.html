@@ -28,7 +28,7 @@
       }
 
       body {
-        background:linear-gradient(0deg, rgba(255,121,120,0.3), rgba(255,121,120,0.3)), url(./bg-intro-desktop.png);
+        background:linear-gradient(0deg, rgba(255,121,120,0.6), rgba(255,121,120,0.6)), url(./bg-intro-desktop.png);
         /* add modal to background */
         background-repeat: no-repeat;
 
@@ -125,6 +125,14 @@
       @media (max-width: 375px) {
         .container {
           flex-direction: column;
+        }
+        
+        body {
+          background:linear-gradient(0deg, rgba(255,121,120,0.6), rgba(255,121,120,0.6)), url(./bg-intro-mobile.png);
+          /* add modal to background */
+          background-repeat: no-repeat;
+
+          background-size: cover;
         }
       }
 
